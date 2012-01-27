@@ -1,5 +1,5 @@
 ﻿<?php
-class Test extends CI_Controller
+class Main extends CI_Controller
 {
 function index()
    {
