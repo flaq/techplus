@@ -69,18 +69,22 @@ body {
     width: 200px;
     height: 500px;
       }
-     
+#menu ul {
+	list-style-type:none;
+	}
+	 
 #menu li {
     margin: 30px;
     }
 
 #menu a {
-    color: #FFFFFF;
+    color: #FF8C00;
     text-decoration: none;
     }
     
 #menu a:hover {
     text-decoration: underline;
+	color: #8B8682;
     }
 
 #sidebar {
