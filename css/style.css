@@ -8,21 +8,24 @@ body {
 	max-width: 1100px;
 	min-width: 800px;
     margin: 0 auto;
+	margin-top: 20px;
     background-image: url(../images/beton2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     font: 15px Calibri, Arial, Helvetica, sans-serif;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
+	/* zaokroglone rogi dla IE - nie dziala przezroczystosc */
+/*	behavior:url(http://localhost/techplus/css/border-radius.htc) */
     }
 	
 #transbox
   {
   max-width: 1100px;
   min-width: 800px;
-   margin:0 auto;
-  /* Fallback for web browsers that doesn't support RGBa */
-	background: rgb(255, 255, 255);
+  margin:0 auto;
+  /* Fallback for web browsers that doesn't support RGBa 
+	background: rgb(0, 255, 255); */
 	/* RGBa with 0.6 opacity */
 	background: rgba(255, 255, 255, 0.6);
 	/* For IE 5.5 - 7*/
@@ -31,6 +34,8 @@ body {
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF)";
   	-moz-border-radius: 15px;
 	border-radius: 15px;
+	/* zaokroglone rogi dla IE - nie dziala przezroczystosc */
+/*	behavior:url(http://localhost/techplus/css/border-radius.htc)  */
   
   }
 
@@ -56,6 +61,7 @@ body {
     float: left;
     width: 100%;
     margin-right: -200px;
+	margin-top: 10px;
     }
     
 #menu {
@@ -98,6 +104,5 @@ body {
 p, h2, h3 { padding: 10px; }
 p {text-align: justify; }
 h3 { font-size: 16px; }
-
 
 

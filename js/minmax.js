@@ -2,7 +2,7 @@
 // version 1.0, 08-Aug-2003
 // written by Andrew Clover <and@doxdesk.com>, use freely
 
-/*@cc_on
+@cc_on
 @if (@_win32 && @_jscript_version>4)
 
 var minmax_elements;
@@ -141,4 +141,4 @@ minmax_scan();
 minmax_scanner= window.setInterval(minmax_scan, minmax_SCANDELAY);
 window.attachEvent('onload', minmax_stop);
 
-@end @*/
+@end @
